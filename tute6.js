@@ -33,6 +33,7 @@ console.log("using slice() function returns the elements from rrange index passe
 
 console.log('compare: ', html);
 console.log("using replace(1st,2nd) function replaces the frist occurence of 1st value (1st value from 2nd value): ", html.replace('is', 'that'));
+console.log("html: ", html);
 
 console.log("Template Literals");
 let fruit1 = 'Orange';
