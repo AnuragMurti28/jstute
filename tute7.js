@@ -12,4 +12,4 @@ arr[1] = 334;
 console.log("arr after changing arr[1] element: ", arr);
 console.log("assigning value of array to a variable");
 let marks3 = marks[3];
-console.log("assigned value of marks[3] to var1: ", marks3);
+console.log("assigned value of marks[3] to marks3: ", marks3);
