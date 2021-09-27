@@ -16,9 +16,9 @@ console.log("starts from 0 and end noo limit: " +
     html[7]);
 
 console.log(html.indexOf('g'));
-console.log("using lastIndexOf", html.lastIndexOf('h1'));
-console.log("using IndexOf", html.indexOf('h1'));
-console.log("using IndexOf for unavailable substring", html.indexOf('strong'));
+console.log("using lastIndexOf() returns last occurence of substring(h1) passed in function", html.lastIndexOf('h1'));
+console.log("using IndexOf() returns first occurence of substring(h1) passed in function", html.indexOf('h1'));
+console.log("using IndexOf() for unavailable substring returns -1", html.indexOf('strong'));
 console.log("using for charAt: ", html.charAt(6));
 console.log("using endsWith() function returns boolean if string ends with the passed value(false) in function: ", html.endsWith(false));
 console.log("using endsWith() function returns boolean if string ends with the passed value(str2) in function: ", html.endsWith('str2'));
