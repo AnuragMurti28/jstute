@@ -30,3 +30,16 @@ console.log("marks[] after unshift(1009): ", marks);
 console.log("push() insert element in last of array");
 fruits.push('Papaya');
 console.log("fruits[] after push(Papaya): ", fruits);
+console.log("pop() removes element from last index of array: ");
+console.log("marks[] after marks.pop(): " + "pop() removes element from last index of array: ", marks.pop());
+console.log("Marks: ", marks);
+console.log("shift() removes element from first index of array: ");
+console.log("fruits[] after fruits.shift()", fruits.shift());
+console.log("fruits: ", fruits);
+console.log("splice(a,b) takes two elements as argument where 'a' denotes the index from which pop is start and 'b' denote the number of elements it will removes from array");
+console.log("marks: ", marks);
+console.log("marks after marks.splice(2,4): removed these four elements: ", marks.splice(2, 4), " and remaing are: ", marks);
+console.log("reversed ", marks, " using marks.reverse() ", marks.reverse());
+
+let marks2 = [3, 15, 14, 20];
+console.log("concat() concatinats the array marks2[]: ", marks2, "with the base array with the array marks[]:", marks, "passed in argument marks.concat(marks2): ", marks.concat(marks2));
