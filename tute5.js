@@ -4,7 +4,7 @@ let myVar;
 myVar = String(34);
 // console.log("type of " + myVar, (typeof myVar));
 let booleanVar = String(true);
-console.log("type of " + booleanVar, (typeof booleanVar));
+console.log("type of " + booleanVar + ": ", (typeof booleanVar));
 let date = new Date();
 console.log(date, (typeof date));
 console.log("Date is converted into string");
