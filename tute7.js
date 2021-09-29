@@ -43,3 +43,18 @@ console.log("reversed ", marks, " using marks.reverse() ", marks.reverse());
 
 let marks2 = [3, 15, 14, 20];
 console.log("concat() concatinats the array marks2[]: ", marks2, "with the base array with the array marks[]:", marks, "passed in argument marks.concat(marks2): ", marks.concat(marks2));
+
+console.log("\n");
+console.log("objects in JavaScript");
+
+let candidate = {
+    'first name': 'Anurag',
+    'last name': 'Murti',
+    Occupation: 'Engineer',
+    payscale: 300000,
+    marks: [5, 9, 6, 7]
+};
+
+console.log(candidate);
+console.log("two ways to access key and value: candidate['first name']: ", candidate["first name"]);
+console.log("two ways to access key and value candidate.occupation: ", candidate.Occupation);
